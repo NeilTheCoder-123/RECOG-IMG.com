@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient( green,  aqua);
+}
+
+.btn-default {
+    cursor: default;
+}
+
+#camera {
+    border-color: chocolate;
+    height: 300px !important;
+    width: 370px !important;
+    border: 20px ridge rebeccapurple;
+}
+#camera video{
+    width: 330px;
+    height: 310px;
+    margin-top: -24.5;
+}
+
+.btn-info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(145 91 222);
+    border-color: rgb(142 70 218);
+}
+
+.btn-info:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(147 49 213);
+    border-color: rgb(111 38 188);
+}
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0px;
+    box-shadow: rgb(0 0 0 / 13%) 0px 3px 5px inset;
+}
+
+.btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .open > .dropdown-toggle.btn-info.focus, .open > .dropdown-toggle.btn-info:focus, .open > .dropdown-toggle.btn-info:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100 38 188);
+    border-color: rgb(74 27 133);
+}
+
+.btn-info.focus, .btn-info:focus {
+    color: #fff;
+    background-color: #9a31d5;
+    border-color: #451b85;
+}
